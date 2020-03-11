@@ -21,7 +21,7 @@
                                     <constraint firstAttribute="height" constant="75" id="A1a-xZ-Gxv"/>
                                     <constraint firstAttribute="width" constant="75" id="ACl-8l-FJL"/>
                                 </constraints>
-                                <state key="normal" title="prevButton" image="prev"/>
+                                <state key="normal" title="prevButton" image="back.png"/>
                                 <connections>
                                     <action selector="prevButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0uN-EB-fB8"/>
                                 </connections>
@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="width" constant="75" id="kN0-Hr-tDw"/>
                                     <constraint firstAttribute="height" constant="75" id="qGQ-fD-GVI"/>
                                 </constraints>
-                                <state key="normal" title="startButton" image="start"/>
+                                <state key="normal" title="startButton" image="start.png"/>
                                 <connections>
                                     <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f0E-nd-Q3T"/>
                                 </connections>
@@ -43,7 +43,7 @@
                                     <constraint firstAttribute="height" constant="75" id="A7s-ap-lYB"/>
                                     <constraint firstAttribute="width" constant="75" id="pQV-qc-DcS"/>
                                 </constraints>
-                                <state key="normal" title="nextButton" image="next"/>
+                                <state key="normal" title="nextButton" image="next.png"/>
                                 <connections>
                                     <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKp-Ls-vHl"/>
                                 </connections>
@@ -105,7 +105,7 @@
                                     <constraint firstAttribute="height" constant="75" id="fk4-GH-5Pz"/>
                                     <constraint firstAttribute="width" constant="75" id="ym3-co-qr0"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="back"/>
+                                <state key="normal" title="Button" image="back.png"/>
                                 <connections>
                                     <segue destination="Hzc-Sf-s3K" kind="unwind" unwindAction="unwind:" id="eko-E1-L1b"/>
                                 </connections>
@@ -134,9 +134,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back" width="72.5" height="72.5"/>
-        <image name="next" width="73" height="73"/>
-        <image name="prev" width="71.5" height="71.5"/>
-        <image name="start" width="70.5" height="72.5"/>
+        <image name="back.png" width="145" height="145"/>
+        <image name="next.png" width="146" height="146"/>
+        <image name="start.png" width="141" height="145"/>
     </resources>
 </document>
