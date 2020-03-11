@@ -96,11 +96,15 @@ class ViewController: UIViewController {
     override func prepare (for segue: UIStoryboardSegue, sender: Any?) {
         let secondViewController:SecondViewController = segue.destination as! SecondViewController
         secondViewController.focusedKeshiki = currentKeshiki
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            startButtonView.setImage(startButtonImage, for: state)
+        }
     }
     
     
     @IBAction func mainImageButton(_ sender: Any) {
-        
     }
     
     

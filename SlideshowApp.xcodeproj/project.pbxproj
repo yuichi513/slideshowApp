@@ -14,6 +14,14 @@
 		DB262B2A24121AE300046303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB262B2924121AE300046303 /* Assets.xcassets */; };
 		DB262B2D24121AE300046303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB262B2B24121AE300046303 /* LaunchScreen.storyboard */; };
 		DB262B3524121B4300046303 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB262B3424121B4300046303 /* SecondViewController.swift */; };
+		DB7651982418F812004FF06A /* keshiki1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7651972418F812004FF06A /* keshiki1.png */; };
+		DB76519A2418F81B004FF06A /* keshiki2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7651992418F81B004FF06A /* keshiki2.jpg */; };
+		DB76519C2418F822004FF06A /* keshiki3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB76519B2418F822004FF06A /* keshiki3.png */; };
+		DB76519E2418F82C004FF06A /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = DB76519D2418F82C004FF06A /* prev.png */; };
+		DB7651A02418F831004FF06A /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = DB76519F2418F831004FF06A /* start.png */; };
+		DB7651A22418F836004FF06A /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7651A12418F836004FF06A /* next.png */; };
+		DB7651A42418F83C004FF06A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7651A32418F83B004FF06A /* pause.png */; };
+		DB7651A62418F840004FF06A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7651A52418F840004FF06A /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		DB262B2C24121AE300046303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB262B2E24121AE300046303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB262B3424121B4300046303 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DB7651972418F812004FF06A /* keshiki1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keshiki1.png; sourceTree = "<group>"; };
+		DB7651992418F81B004FF06A /* keshiki2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keshiki2.jpg; sourceTree = "<group>"; };
+		DB76519B2418F822004FF06A /* keshiki3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keshiki3.png; sourceTree = "<group>"; };
+		DB76519D2418F82C004FF06A /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		DB76519F2418F831004FF06A /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		DB7651A12418F836004FF06A /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		DB7651A32418F83B004FF06A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		DB7651A52418F840004FF06A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,14 @@
 				DB262B2924121AE300046303 /* Assets.xcassets */,
 				DB262B2B24121AE300046303 /* LaunchScreen.storyboard */,
 				DB262B2E24121AE300046303 /* Info.plist */,
+				DB7651972418F812004FF06A /* keshiki1.png */,
+				DB7651992418F81B004FF06A /* keshiki2.jpg */,
+				DB76519B2418F822004FF06A /* keshiki3.png */,
+				DB76519D2418F82C004FF06A /* prev.png */,
+				DB76519F2418F831004FF06A /* start.png */,
+				DB7651A12418F836004FF06A /* next.png */,
+				DB7651A32418F83B004FF06A /* pause.png */,
+				DB7651A52418F840004FF06A /* back.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -128,9 +152,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7651982418F812004FF06A /* keshiki1.png in Resources */,
 				DB262B2D24121AE300046303 /* LaunchScreen.storyboard in Resources */,
+				DB7651A42418F83C004FF06A /* pause.png in Resources */,
+				DB7651A22418F836004FF06A /* next.png in Resources */,
+				DB7651A02418F831004FF06A /* start.png in Resources */,
 				DB262B2A24121AE300046303 /* Assets.xcassets in Resources */,
+				DB76519E2418F82C004FF06A /* prev.png in Resources */,
+				DB7651A62418F840004FF06A /* back.png in Resources */,
 				DB262B2824121AE000046303 /* Main.storyboard in Resources */,
+				DB76519C2418F822004FF06A /* keshiki3.png in Resources */,
+				DB76519A2418F81B004FF06A /* keshiki2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
